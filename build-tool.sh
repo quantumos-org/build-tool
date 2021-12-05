@@ -8,4 +8,6 @@ echo "BUILD: Parameters: {$1}"
 
 cd "${1}/"
 
+cmake ..
 make
+./${2}
